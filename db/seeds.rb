@@ -4,4 +4,10 @@
     description: "Thius is task No.#{i}",
     completed: false
   )
+
+User.create(
+  email: 'hoge@ne.jp',
+  password: 'password',
+  password_confirmation: 'password'
+)
 end
